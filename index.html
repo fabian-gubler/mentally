@@ -2,20 +2,28 @@
 <html lang="en">
 	<head>
 		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1KYZDKTDN"></script>
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-Y1KYZDKTDN"
+		></script>
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+			window.dataLayer = window.dataLayer || []
+			function gtag() {
+				dataLayer.push(arguments)
+			}
+			gtag('js', new Date())
 
-			gtag('config', 'G-Y1KYZDKTDN');
+			gtag('config', 'G-Y1KYZDKTDN')
 		</script>
 		<!-- Translation -->
-		<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+		<script
+			type="text/javascript"
+			src="https://cdn.weglot.com/weglot.min.js"
+		></script>
 		<script>
-				Weglot.initialize({
-						api_key: 'wg_0eb3a9f094c400431175aade522b91402'
-				});
+			Weglot.initialize({
+				api_key: 'wg_0eb3a9f094c400431175aade522b91402',
+			})
 		</script>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,17 +37,21 @@
 		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 		<!-- Matomo -->
 		<script>
-			var _paq = window._paq = window._paq || [];
+			var _paq = (window._paq = window._paq || [])
 			/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-				_paq.push(['trackPageView']);
-			_paq.push(['enableLinkTracking']);
-			(function() {
-				var u="https://mentally.matomo.cloud/";
-				_paq.push(['setTrackerUrl', u+'matomo.php']);
-				_paq.push(['setSiteId', '1']);
-				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-				g.async=true; g.src='//cdn.matomo.cloud/mentally.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-			})();
+			_paq.push(['trackPageView'])
+			_paq.push(['enableLinkTracking'])
+			;(function () {
+				var u = 'https://mentally.matomo.cloud/'
+				_paq.push(['setTrackerUrl', u + 'matomo.php'])
+				_paq.push(['setSiteId', '1'])
+				var d = document,
+					g = d.createElement('script'),
+					s = d.getElementsByTagName('script')[0]
+				g.async = true
+				g.src = '//cdn.matomo.cloud/mentally.matomo.cloud/matomo.js'
+				s.parentNode.insertBefore(g, s)
+			})()
 		</script>
 		<!-- End Matomo Code -->
 	</head>
@@ -129,19 +141,21 @@
 								<p class="hero-paragraph">
 									Your Mental Health Support Plattform.
 								</p>
-								<p class="hero-paragraph">
-								</p>
-								<p style="color: #cf826e;">
-								We offer private mental health counseling available directly through your smartphone. 								
+								<p class="hero-paragraph"></p>
+								<p style="color: #cf826e">
+									We offer private mental health counseling
+									available directly through your smartphone.
 								</p>
 								<p>
-								Find your perfect match, you deserve to be happy!
+									Find your perfect match, you deserve to be
+									happy!
 								</p>
 								<div class="hero-cta">
 									<a
 										class="button button-primary button-shadow"
 										target="_blank"
 										href="https://docs.google.com/forms/d/e/1FAIpQLScHXCXCsZjuwOu5sTOXq4yPIjbA5YBImEW_YpEY0xI-QA8TbQ/viewform?usp=sf_link"
+										onclick="_paq.push(['trackEvent', 'Button Clicked', 'Click', 'Early Access']);"
 										>Early access</a
 									>
 								</div>
@@ -386,7 +400,13 @@
 							class="features-inner section-inner has-bottom-divider"
 						>
 							<h2 class="section-title mt-0">Amazing features</h2>
-							<h3 class="section-title" id="instruction" class="section-title mt-0">Toggle the features you care about...</h3>
+							<h3
+								class="section-title"
+								id="instruction"
+								class="section-title mt-0"
+							>
+								Toggle the features you care about...
+							</h3>
 							<div class="features-wrap">
 								<div class="feature is-revealing">
 									<div class="feature-inner">
@@ -457,15 +477,24 @@
 											Real Professionals
 										</h3>
 										<p class="text-sm mb-0">
-										Work with qualified professionals, who support you in overcoming your mental health problems.
+											Work with qualified professionals,
+											who support you in overcoming your
+											mental health problems.
 										</p>
 										<div class="container">
-										<p class="interested">Add to interests</p>
-										<!-- Rounded switch -->
-										<label class="switch">
-											<input type="checkbox">
-											<span class="slider round"></span>
-										</label>
+											<p class="interested">
+												Add to interests
+											</p>
+											<!-- Rounded switch -->
+											<label class="switch">
+												<input
+													type="checkbox"
+													onclick="_paq.push(['trackEvent', 'Checkbox Clicked', 'Click', 'Professionals']);"
+												/>
+												<span
+													class="slider round"
+												></span>
+											</label>
 										</div>
 									</div>
 								</div>
@@ -539,15 +568,23 @@
 											Built-in Transparency
 										</h3>
 										<p class="text-sm mb-0">
-										Clear pricing and Review system guarantees an experience without having to worry
+											Clear pricing and Review system
+											guarantees an experience without
+											having to worry
 										</p>
 										<div class="container">
-										<p class="interested">Add to interests</p>
-										<!-- Rounded switch -->
-										<label class="switch">
-											<input type="checkbox">
-											<span class="slider round"></span>
-										</label>
+											<p class="interested">
+												Add to interests
+											</p>
+											<!-- Rounded switch -->
+											<label class="switch">
+												<input type="checkbox" 
+												onclick="_paq.push(['trackEvent', 'Checkbox Clicked', 'Click', 'Transparency']);"
+												/>
+												<span
+													class="slider round"
+												></span>
+											</label>
 										</div>
 									</div>
 								</div>
@@ -644,15 +681,23 @@
 											Detailed Profiles
 										</h3>
 										<p class="text-sm mb-0">
-										Get to know your potential therapist through a detailed description and introduction video
+											Get to know your potential therapist
+											through a detailed description and
+											introduction video
 										</p>
 										<div class="container">
-										<p class="interested">Add to interests</p>
-										<!-- Rounded switch -->
-										<label class="switch">
-											<input type="checkbox">
-											<span class="slider round"></span>
-										</label>
+											<p class="interested">
+												Add to interests
+											</p>
+											<!-- Rounded switch -->
+											<label class="switch">
+												<input type="checkbox" 
+												onclick="_paq.push(['trackEvent', 'Checkbox Clicked', 'Click', 'Profiles']);"
+												/>
+												<span
+													class="slider round"
+												></span>
+											</label>
 										</div>
 									</div>
 								</div>
@@ -726,15 +771,23 @@
 											Quality
 										</h3>
 										<p class="text-sm mb-0">
-										Swiss health standards and careful selection process providing you an experience of high quality
+											Swiss health standards and careful
+											selection process providing you an
+											experience of high quality
 										</p>
 										<div class="container">
-										<p class="interested">Add to interests</p>
-										<!-- Rounded switch -->
-										<label class="switch">
-											<input type="checkbox">
-											<span class="slider round"></span>
-										</label>
+											<p class="interested">
+												Add to interests
+											</p>
+											<!-- Rounded switch -->
+											<label class="switch">
+												<input type="checkbox" 
+												onclick="_paq.push(['trackEvent', 'Checkbox', 'Click', 'Quality']);"
+												/>
+												<span
+													class="slider round"
+												></span>
+											</label>
 										</div>
 									</div>
 								</div>
@@ -815,15 +868,23 @@
 											Accessible
 										</h3>
 										<p class="text-sm mb-0">
-										Seamless Design, Easy to use functionality, and available everywhere 24/7 from your device
+											Seamless Design, Easy to use
+											functionality, and available
+											everywhere 24/7 from your device
 										</p>
 										<div class="container">
-										<p class="interested">Add to interests</p>
-										<!-- Rounded switch -->
-										<label class="switch">
-											<input type="checkbox">
-											<span class="slider round"></span>
-										</label>
+											<p class="interested">
+												Add to interests
+											</p>
+											<!-- Rounded switch -->
+											<label class="switch">
+												<input type="checkbox" 
+												onclick="_paq.push(['trackEvent', 'Checkbox', 'Click', 'Accessible']);"
+												/>
+												<span
+													class="slider round"
+												></span>
+											</label>
 										</div>
 									</div>
 								</div>
@@ -897,24 +958,34 @@
 											Anonymous
 										</h3>
 										<p class="text-sm mb-0">
-										Your information is always private, whilst having the option to completely disable video (voice-only)
+											Your information is always private,
+											whilst having the option to
+											completely disable video
+											(voice-only)
 										</p>
 										<div class="container">
-										<p class="interested">Add to interests</p>
-										<!-- Rounded switch -->
-										<label class="switch">
-											<input type="checkbox">
-											<span class="slider round"></span>
-										</label>
+											<p class="interested">
+												Add to interests
+											</p>
+											<!-- Rounded switch -->
+											<label class="switch">
+												<input type="checkbox" 
+												onclick="_paq.push(['trackEvent', 'Checkbox', 'Click', 'Anonymous']);"
+												/>
+												<span
+													class="slider round"
+												></span>
+											</label>
 										</div>
 									</div>
 								</div>
-									<a
-										class="button button-block button-shadow"
-										target="_blank"
-										href="https://docs.google.com/forms/d/e/1FAIpQLScHXCXCsZjuwOu5sTOXq4yPIjbA5YBImEW_YpEY0xI-QA8TbQ/viewform?usp=sf_link"
-										>Submit your interests</a
-									>
+								<a
+									class="button button-block button-shadow"
+									target="_blank"
+									href="https://docs.google.com/forms/d/e/1FAIpQLScHXCXCsZjuwOu5sTOXq4yPIjbA5YBImEW_YpEY0xI-QA8TbQ/viewform?usp=sf_link"
+									onclick="_paq.push(['trackEvent', 'Button Clicked', 'Click', 'Submit Interests']);"
+									>Submit your interests</a
+								>
 							</div>
 						</div>
 					</div>
@@ -923,7 +994,9 @@
 					<div class="container-sm">
 						<div class="media-inner section-inner">
 							<div class="media-header text-center">
-								<h2 class="section-title mt-0">Meet Mental.ly</h2>
+								<h2 class="section-title mt-0">
+									Meet Mental.ly
+								</h2>
 								<p class="section-paragraph mb-0">
 									Lorem ipsum is common placeholder text used
 									to demonstrate the graphic elements of a
@@ -931,10 +1004,10 @@
 								</p>
 							</div>
 							<div>
-							<img
-								src="dist/images/iphone-mockup.png"
-								alt="App preview"
-							/>
+								<img
+									src="dist/images/iphone-mockup.png"
+									alt="App preview"
+								/>
 							</div>
 							<div hidden class="media-canvas">
 								<svg
@@ -1055,14 +1128,16 @@
 									Free counseling session
 								</h2>
 								<p class="section-paragraph">
-								Receive your free counseling session after product launch from one of our qualified health care professional
+									Receive your free counseling session after
+									product launch from one of our qualified
+									health care professional
 								</p>
 							</div>
 							<div
 								class="footer-form newsletter-form field field-grouped"
 							>
 								<div class="control control-expanded">
-									<input 
+									<input
 										class="input"
 										type="email"
 										name="email"
@@ -1074,6 +1149,7 @@
 										class="button button-primary button-block button-shadow"
 										target="_blank"
 										href="https://docs.google.com/forms/d/e/1FAIpQLScHXCXCsZjuwOu5sTOXq4yPIjbA5YBImEW_YpEY0xI-QA8TbQ/viewform?usp=sf_link"
+										onclick="_paq.push(['trackEvent', 'Button Clicked', 'Click', 'Early Access']);"
 										>Early access</a
 									>
 								</div>
