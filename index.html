@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1KYZDKTDN"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'G-Y1KYZDKTDN');
-		</script>
 		<!-- Translation -->
 		<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
 		<script>
@@ -27,6 +18,21 @@
 		/>
 		<link rel="stylesheet" href="build/stylesheets/index.css" />
 		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+		<!-- Matomo -->
+		<script>
+			var _paq = window._paq = window._paq || [];
+			/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+				_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function() {
+				var u="https://mentally.matomo.cloud/";
+				_paq.push(['setTrackerUrl', u+'matomo.php']);
+				_paq.push(['setSiteId', '1']);
+				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+				g.async=true; g.src='//cdn.matomo.cloud/mentally.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+			})();
+		</script>
+		<!-- End Matomo Code -->
 	</head>
 
 	<body class="is-boxed has-animations">
