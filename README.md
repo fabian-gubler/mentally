@@ -1,4 +1,4 @@
-### 👉 [Live Preview](https://fabian-gubler.github.io/)
+### 👉 [Live Preview](https://fabian-gubler.github.io/mentally/)
 
 # Work in Progress
 Experimental Landing Page created validate our Startup Idea "Mental.ly" 
