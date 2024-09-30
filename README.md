@@ -1,23 +1,61 @@
-# Venture Creation Landing Page
-### 👉 [Live Preview](https://fabian-gubler.github.io/mentally/)
+# Mental.ly – Landing Page for Mental Health Startup
 
-As part of the Venture Creation course, our team developed a startup idea from conception to pitch. To promote our idea, we created a landing page that incorporated a range of user experiments to test its viability and effectiveness. Our landing page utilized advanced analytics and tracking tools to monitor user behavior and evaluate the success of different experiments.
-Key Features
+### :books: **Landing Page**:  
+**[Mental.ly Landing Page](https://fabian-gubler.github.io/mentally/)** – Click the link to view the experimental landing page used to validate our startup idea.
 
-- Full lifecycle development of a startup idea
-- Creation of a landing page to promote the startup
-- Incorporation of user experiments to test viability and effectiveness
-- Utilization of advanced analytics and tracking tools to monitor user behavior
-- Refinement of startup idea based on user insights
+### 📄 **Business Plan**:  
+**[Mental.ly Business Plan](https://raw.githubusercontent.com/fabian-gubler/mentally/main/Mentally_BusinessPlan.pdf)** – Detailed documentation of the business model and market research for Mental.ly.
 
-By applying these cutting-edge tools and methodologies, we gained valuable insights into the needs and preferences of our target audience, enabling us to refine our startup idea and develop a more effective pitch.
-Experimental Landing Page created to validate our Startup Idea "Mental.ly" 
-Experiments Conducted
+### 📊 **Pitch Deck**:  
+**[Mental.ly Pitch Deck](https://raw.githubusercontent.com/fabian-gubler/mentally/main/Mentally_PitchDeck.pdf)** – Final pitch deck used to present the Mental.ly startup to potential investors.
 
-## Experiments conducted
-Our landing page utilized advanced analytics and tracking tools to monitor user behavior and evaluate the success of different experiments. To gather insights into user behavior and preferences, we conducted a number of experiments on our landing page, including:
+---
 
-- Integration of Matomo for advanced tracking, enabling measurement of various customer demographics and behavior on our site
-- Linking to a Google form to obtain additional information on our potential users
+## Table of Contents
 
-By analyzing the data obtained through these experiments, we were able to refine our startup idea and tailor our pitch to better meet the needs and preferences of our target audience.
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Experiments Conducted](#experiments-conducted)
+- [Files in this Repository](#files-in-this-repository)
+- [Technologies Used](#technologies-used)
+- [Acknowledgements](#acknowledgements)
+
+## Overview
+
+As part of the **Venture Creation course**, we developed the mental health startup idea **"Mental.ly"** from the ground up, covering everything from conception to pitch. To validate and promote our idea, we created an **experimental landing page**. This page not only served as a promotional tool but also helped us conduct various user experiments to gauge the viability of the startup.
+
+Through user interactions tracked on the page, we gained valuable insights into user behavior, enabling us to refine our business model and pitch.
+
+## Key Features
+
+- Full startup lifecycle development: from ideation to pitch.
+- Creation of a landing page to promote the startup **Mental.ly**.
+- Conducted user experiments to validate and test the startup idea.
+- Employed **advanced analytics** with **Matomo** to monitor and track user interactions.
+- Gained user insights to iterate and refine the business model.
+
+## Experiments Conducted
+
+To gather actionable insights, we conducted several experiments on the landing page:
+
+1. **User Behavior Tracking**:  
+   We integrated **Matomo** for in-depth analytics, measuring customer demographics, site interactions, and user behavior on the landing page.
+
+2. **User Feedback Collection**:  
+   Linked to a **Google Form** to collect additional insights from potential users, helping us understand their needs and preferences.
+
+By analyzing the data from these experiments, we were able to fine-tune our startup’s pitch and adapt our business model to better align with user expectations.
+
+## Files in this Repository
+
+This repository contains the key materials developed as part of the **Mental.ly** venture:
+
+1. **Landing Page**: The core experimental page used to validate the startup idea.
+2. **Business Plan**: Detailed documentation of the business model and market research.
+3. **Pitch Deck**: The final pitch deck used to present the startup to potential investors.
+
+## Technologies Used
+
+- **Matomo** for advanced user behavior analytics and tracking.
+- **GitHub Actions** for continuous integration and deployment of the landing page.
+- **HTML, CSS, JavaScript** for frontend development of the landing page.
