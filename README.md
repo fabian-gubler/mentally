@@ -1,5 +1,3 @@
-# Mental.ly – Landing Page for Mental Health Startup
-
 ### :books: **Landing Page**:  
 **[Mental.ly Landing Page](https://fabian-gubler.github.io/mentally/)** – Click the link to view the experimental landing page used to validate our startup idea.
 
